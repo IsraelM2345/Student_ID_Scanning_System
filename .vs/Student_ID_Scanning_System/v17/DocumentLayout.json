@@ -1,0 +1,169 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\israel\\Source\\Repos\\Student_ID_Scanning_System\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9B70E7BA-799F-4E97-90CD-C57F4FCD4387}|Student_ID_Scanning_System\\Student_ID_Scanning_System.csproj|c:\\users\\israel\\source\\repos\\student_id_scanning_system\\student_id_scanning_system\\maindashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9B70E7BA-799F-4E97-90CD-C57F4FCD4387}|Student_ID_Scanning_System\\Student_ID_Scanning_System.csproj|solutionrelative:student_id_scanning_system\\maindashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B70E7BA-799F-4E97-90CD-C57F4FCD4387}|Student_ID_Scanning_System\\Student_ID_Scanning_System.csproj|c:\\users\\israel\\source\\repos\\student_id_scanning_system\\student_id_scanning_system\\maindashboard.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B70E7BA-799F-4E97-90CD-C57F4FCD4387}|Student_ID_Scanning_System\\Student_ID_Scanning_System.csproj|solutionrelative:student_id_scanning_system\\maindashboard.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B70E7BA-799F-4E97-90CD-C57F4FCD4387}|Student_ID_Scanning_System\\Student_ID_Scanning_System.csproj|C:\\Users\\israel\\Source\\Repos\\Student_ID_Scanning_System\\student_id_scanning_system\\maindashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B70E7BA-799F-4E97-90CD-C57F4FCD4387}|Student_ID_Scanning_System\\Student_ID_Scanning_System.csproj|solutionrelative:student_id_scanning_system\\maindashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B70E7BA-799F-4E97-90CD-C57F4FCD4387}|Student_ID_Scanning_System\\Student_ID_Scanning_System.csproj|C:\\Users\\israel\\Source\\Repos\\Student_ID_Scanning_System\\student_id_scanning_system\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9B70E7BA-799F-4E97-90CD-C57F4FCD4387}|Student_ID_Scanning_System\\Student_ID_Scanning_System.csproj|solutionrelative:student_id_scanning_system\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B70E7BA-799F-4E97-90CD-C57F4FCD4387}|Student_ID_Scanning_System\\Student_ID_Scanning_System.csproj|C:\\Users\\israel\\Source\\Repos\\Student_ID_Scanning_System\\student_id_scanning_system\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B70E7BA-799F-4E97-90CD-C57F4FCD4387}|Student_ID_Scanning_System\\Student_ID_Scanning_System.csproj|solutionrelative:student_id_scanning_system\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B70E7BA-799F-4E97-90CD-C57F4FCD4387}|Student_ID_Scanning_System\\Student_ID_Scanning_System.csproj|C:\\Users\\israel\\Source\\Repos\\Student_ID_Scanning_System\\student_id_scanning_system\\login.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B70E7BA-799F-4E97-90CD-C57F4FCD4387}|Student_ID_Scanning_System\\Student_ID_Scanning_System.csproj|solutionrelative:student_id_scanning_system\\login.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B70E7BA-799F-4E97-90CD-C57F4FCD4387}|Student_ID_Scanning_System\\Student_ID_Scanning_System.csproj|C:\\Users\\israel\\Source\\Repos\\Student_ID_Scanning_System\\student_id_scanning_system\\properties\\resources.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
+      "RelativeMoniker": "D:0:0:{9B70E7BA-799F-4E97-90CD-C57F4FCD4387}|Student_ID_Scanning_System\\Student_ID_Scanning_System.csproj|solutionrelative:student_id_scanning_system\\properties\\resources.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B70E7BA-799F-4E97-90CD-C57F4FCD4387}|Student_ID_Scanning_System\\Student_ID_Scanning_System.csproj|c:\\users\\israel\\source\\repos\\student_id_scanning_system\\student_id_scanning_system\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B70E7BA-799F-4E97-90CD-C57F4FCD4387}|Student_ID_Scanning_System\\Student_ID_Scanning_System.csproj|solutionrelative:student_id_scanning_system\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainDashboard.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\israel\\Source\\Repos\\Student_ID_Scanning_System\\Student_ID_Scanning_System\\MainDashboard.Designer.cs",
+              "RelativeDocumentMoniker": "Student_ID_Scanning_System\\MainDashboard.Designer.cs",
+              "ToolTip": "C:\\Users\\israel\\Source\\Repos\\Student_ID_Scanning_System\\Student_ID_Scanning_System\\MainDashboard.Designer.cs",
+              "RelativeToolTip": "Student_ID_Scanning_System\\MainDashboard.Designer.cs",
+              "ViewState": "AgIAAJUCAAAAAAAAAAApwKsCAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-17T02:01:50.204Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainDashboard.cs",
+              "DocumentMoniker": "C:\\Users\\israel\\Source\\Repos\\Student_ID_Scanning_System\\Student_ID_Scanning_System\\MainDashboard.cs",
+              "RelativeDocumentMoniker": "Student_ID_Scanning_System\\MainDashboard.cs",
+              "ToolTip": "C:\\Users\\israel\\Source\\Repos\\Student_ID_Scanning_System\\Student_ID_Scanning_System\\MainDashboard.cs",
+              "RelativeToolTip": "Student_ID_Scanning_System\\MainDashboard.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAIA3wB8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-16T15:48:16.008Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainDashboard.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\israel\\Source\\Repos\\Student_ID_Scanning_System\\Student_ID_Scanning_System\\MainDashboard.cs",
+              "RelativeDocumentMoniker": "Student_ID_Scanning_System\\MainDashboard.cs",
+              "ToolTip": "C:\\Users\\israel\\Source\\Repos\\Student_ID_Scanning_System\\Student_ID_Scanning_System\\MainDashboard.cs [Design]",
+              "RelativeToolTip": "Student_ID_Scanning_System\\MainDashboard.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-16T05:25:12.54Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Login.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\israel\\Source\\Repos\\Student_ID_Scanning_System\\Student_ID_Scanning_System\\Login.Designer.cs",
+              "RelativeDocumentMoniker": "Student_ID_Scanning_System\\Login.Designer.cs",
+              "ToolTip": "C:\\Users\\israel\\Source\\Repos\\Student_ID_Scanning_System\\Student_ID_Scanning_System\\Login.Designer.cs",
+              "RelativeToolTip": "Student_ID_Scanning_System\\Login.Designer.cs",
+              "ViewState": "AgIAAF8BAAAAAAAAAAApwIQBAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-16T01:42:24.545Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Login.cs",
+              "DocumentMoniker": "C:\\Users\\israel\\Source\\Repos\\Student_ID_Scanning_System\\Student_ID_Scanning_System\\Login.cs",
+              "RelativeDocumentMoniker": "Student_ID_Scanning_System\\Login.cs",
+              "ToolTip": "C:\\Users\\israel\\Source\\Repos\\Student_ID_Scanning_System\\Student_ID_Scanning_System\\Login.cs",
+              "RelativeToolTip": "Student_ID_Scanning_System\\Login.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwBQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-16T01:13:33.213Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Login.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\israel\\Source\\Repos\\Student_ID_Scanning_System\\Student_ID_Scanning_System\\Login.cs",
+              "RelativeDocumentMoniker": "Student_ID_Scanning_System\\Login.cs",
+              "ToolTip": "C:\\Users\\israel\\Source\\Repos\\Student_ID_Scanning_System\\Student_ID_Scanning_System\\Login.cs [Design]",
+              "RelativeToolTip": "Student_ID_Scanning_System\\Login.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-16T00:33:32.407Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\israel\\Source\\Repos\\Student_ID_Scanning_System\\Student_ID_Scanning_System\\Program.cs",
+              "RelativeDocumentMoniker": "Student_ID_Scanning_System\\Program.cs",
+              "ToolTip": "C:\\Users\\israel\\Source\\Repos\\Student_ID_Scanning_System\\Student_ID_Scanning_System\\Program.cs",
+              "RelativeToolTip": "Student_ID_Scanning_System\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-17T01:25:59.631Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Resources.resx",
+              "DocumentMoniker": "C:\\Users\\israel\\Source\\Repos\\Student_ID_Scanning_System\\Student_ID_Scanning_System\\Properties\\Resources.resx",
+              "RelativeDocumentMoniker": "Student_ID_Scanning_System\\Properties\\Resources.resx",
+              "ToolTip": "C:\\Users\\israel\\Source\\Repos\\Student_ID_Scanning_System\\Student_ID_Scanning_System\\Properties\\Resources.resx",
+              "RelativeToolTip": "Student_ID_Scanning_System\\Properties\\Resources.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2025-11-16T00:39:18.655Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
