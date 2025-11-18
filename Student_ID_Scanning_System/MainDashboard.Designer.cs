@@ -30,24 +30,16 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainDashboard));
             this.pSidebar = new System.Windows.Forms.Panel();
-            this.label23 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
+            this.lblReports = new System.Windows.Forms.Label();
             this.panel5 = new System.Windows.Forms.Panel();
             this.lblLogout = new System.Windows.Forms.Label();
-            this.btnLogout = new System.Windows.Forms.Button();
             this.lblDashboard = new System.Windows.Forms.Label();
             this.lblStudentRecord = new System.Windows.Forms.Label();
-            this.btnStudentRecord = new System.Windows.Forms.Button();
             this.lblScanID = new System.Windows.Forms.Label();
-            this.btnScanID = new System.Windows.Forms.Button();
-            this.btnDashboard = new System.Windows.Forms.Button();
             this.panel4 = new System.Windows.Forms.Panel();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pHeader = new System.Windows.Forms.Panel();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.pNotification = new System.Windows.Forms.Panel();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.lblNumberID = new System.Windows.Forms.Label();
             this.lblName = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
@@ -57,46 +49,55 @@
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
-            this.btnQRCode = new System.Windows.Forms.Button();
-            this.label13 = new System.Windows.Forms.Label();
-            this.label14 = new System.Windows.Forms.Label();
-            this.label15 = new System.Windows.Forms.Label();
             this.label17 = new System.Windows.Forms.Label();
-            this.btnBarcode = new System.Windows.Forms.Button();
-            this.label12 = new System.Windows.Forms.Label();
-            this.label11 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
+            this.label15 = new System.Windows.Forms.Label();
+            this.label14 = new System.Windows.Forms.Label();
+            this.label13 = new System.Windows.Forms.Label();
+            this.btnQRCode = new System.Windows.Forms.Button();
             this.label8 = new System.Windows.Forms.Label();
-            this.btnRFID = new System.Windows.Forms.Button();
-            this.label18 = new System.Windows.Forms.Label();
-            this.label19 = new System.Windows.Forms.Label();
-            this.label20 = new System.Windows.Forms.Label();
-            this.label21 = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
+            this.label10 = new System.Windows.Forms.Label();
+            this.label11 = new System.Windows.Forms.Label();
+            this.label12 = new System.Windows.Forms.Label();
+            this.btnBarcode = new System.Windows.Forms.Button();
             this.label22 = new System.Windows.Forms.Label();
+            this.label21 = new System.Windows.Forms.Label();
+            this.label20 = new System.Windows.Forms.Label();
+            this.label19 = new System.Windows.Forms.Label();
+            this.label18 = new System.Windows.Forms.Label();
+            this.btnRFID = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
             this.label16 = new System.Windows.Forms.Label();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            this.pictureBox6 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.btnReports = new System.Windows.Forms.Button();
+            this.btnLogout = new System.Windows.Forms.Button();
+            this.btnStudentRecord = new System.Windows.Forms.Button();
+            this.btnScanID = new System.Windows.Forms.Button();
+            this.btnDashboard = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pSidebar.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.pHeader.SuspendLayout();
             this.panel3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             this.pNotification.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // pSidebar
             // 
+            this.pSidebar.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.pSidebar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(81)))), ((int)(((byte)(59)))));
-            this.pSidebar.Controls.Add(this.label23);
-            this.pSidebar.Controls.Add(this.button1);
+            this.pSidebar.Controls.Add(this.lblReports);
+            this.pSidebar.Controls.Add(this.btnReports);
             this.pSidebar.Controls.Add(this.panel5);
             this.pSidebar.Controls.Add(this.lblLogout);
             this.pSidebar.Controls.Add(this.btnLogout);
@@ -108,38 +109,22 @@
             this.pSidebar.Controls.Add(this.btnDashboard);
             this.pSidebar.Controls.Add(this.panel4);
             this.pSidebar.Controls.Add(this.pictureBox1);
-            this.pSidebar.Dock = System.Windows.Forms.DockStyle.Left;
             this.pSidebar.Location = new System.Drawing.Point(0, 0);
             this.pSidebar.Name = "pSidebar";
             this.pSidebar.Size = new System.Drawing.Size(286, 1055);
             this.pSidebar.TabIndex = 0;
             // 
-            // label23
+            // lblReports
             // 
-            this.label23.AutoSize = true;
-            this.label23.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label23.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(96)))), ((int)(((byte)(153)))), ((int)(((byte)(102)))));
-            this.label23.Location = new System.Drawing.Point(50, 466);
-            this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(79, 28);
-            this.label23.TabIndex = 50;
-            this.label23.Text = "Reports";
-            // 
-            // button1
-            // 
-            this.button1.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button1.FlatAppearance.BorderSize = 0;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(96)))), ((int)(((byte)(153)))), ((int)(((byte)(102)))));
-            this.button1.Image = global::Student_ID_Scanning_System.Properties.Resources.scan_history_icon__1_;
-            this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button1.Location = new System.Drawing.Point(0, 446);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(286, 70);
-            this.button1.TabIndex = 49;
-            this.button1.TabStop = false;
-            this.button1.UseVisualStyleBackColor = true;
+            this.lblReports.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.lblReports.AutoSize = true;
+            this.lblReports.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblReports.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(96)))), ((int)(((byte)(153)))), ((int)(((byte)(102)))));
+            this.lblReports.Location = new System.Drawing.Point(50, 466);
+            this.lblReports.Name = "lblReports";
+            this.lblReports.Size = new System.Drawing.Size(79, 28);
+            this.lblReports.TabIndex = 50;
+            this.lblReports.Text = "Reports";
             // 
             // panel5
             // 
@@ -161,36 +146,21 @@
             this.lblLogout.Text = "Logout";
             this.lblLogout.Click += new System.EventHandler(this.lblLogout_Click);
             // 
-            // btnLogout
-            // 
-            this.btnLogout.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.btnLogout.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnLogout.FlatAppearance.BorderSize = 0;
-            this.btnLogout.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnLogout.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(96)))), ((int)(((byte)(153)))), ((int)(((byte)(102)))));
-            this.btnLogout.Image = ((System.Drawing.Image)(resources.GetObject("btnLogout.Image")));
-            this.btnLogout.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnLogout.Location = new System.Drawing.Point(0, 893);
-            this.btnLogout.Name = "btnLogout";
-            this.btnLogout.Size = new System.Drawing.Size(286, 70);
-            this.btnLogout.TabIndex = 46;
-            this.btnLogout.TabStop = false;
-            this.btnLogout.UseVisualStyleBackColor = true;
-            this.btnLogout.Click += new System.EventHandler(this.btnLogout_Click);
-            // 
             // lblDashboard
             // 
+            this.lblDashboard.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lblDashboard.AutoSize = true;
-            this.lblDashboard.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblDashboard.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblDashboard.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(96)))), ((int)(((byte)(153)))), ((int)(((byte)(102)))));
             this.lblDashboard.Location = new System.Drawing.Point(50, 204);
             this.lblDashboard.Name = "lblDashboard";
-            this.lblDashboard.Size = new System.Drawing.Size(108, 28);
+            this.lblDashboard.Size = new System.Drawing.Size(114, 28);
             this.lblDashboard.TabIndex = 45;
             this.lblDashboard.Text = "Dashboard";
             // 
             // lblStudentRecord
             // 
+            this.lblStudentRecord.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lblStudentRecord.AutoSize = true;
             this.lblStudentRecord.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblStudentRecord.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(96)))), ((int)(((byte)(153)))), ((int)(((byte)(102)))));
@@ -201,25 +171,9 @@
             this.lblStudentRecord.Text = "Student Record";
             this.lblStudentRecord.Click += new System.EventHandler(this.lblStudentRecord_Click);
             // 
-            // btnStudentRecord
-            // 
-            this.btnStudentRecord.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.btnStudentRecord.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnStudentRecord.FlatAppearance.BorderSize = 0;
-            this.btnStudentRecord.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnStudentRecord.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(96)))), ((int)(((byte)(153)))), ((int)(((byte)(102)))));
-            this.btnStudentRecord.Image = global::Student_ID_Scanning_System.Properties.Resources.student_record_icon;
-            this.btnStudentRecord.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnStudentRecord.Location = new System.Drawing.Point(0, 358);
-            this.btnStudentRecord.Name = "btnStudentRecord";
-            this.btnStudentRecord.Size = new System.Drawing.Size(286, 70);
-            this.btnStudentRecord.TabIndex = 43;
-            this.btnStudentRecord.TabStop = false;
-            this.btnStudentRecord.UseVisualStyleBackColor = true;
-            this.btnStudentRecord.Click += new System.EventHandler(this.btnStudentRecord_Click);
-            // 
             // lblScanID
             // 
+            this.lblScanID.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lblScanID.AutoSize = true;
             this.lblScanID.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblScanID.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(96)))), ((int)(((byte)(153)))), ((int)(((byte)(102)))));
@@ -230,40 +184,6 @@
             this.lblScanID.Text = "Scan ID";
             this.lblScanID.Click += new System.EventHandler(this.lblScanID_Click);
             // 
-            // btnScanID
-            // 
-            this.btnScanID.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.btnScanID.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnScanID.FlatAppearance.BorderSize = 0;
-            this.btnScanID.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnScanID.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(96)))), ((int)(((byte)(153)))), ((int)(((byte)(102)))));
-            this.btnScanID.Image = ((System.Drawing.Image)(resources.GetObject("btnScanID.Image")));
-            this.btnScanID.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnScanID.Location = new System.Drawing.Point(0, 270);
-            this.btnScanID.Name = "btnScanID";
-            this.btnScanID.Size = new System.Drawing.Size(286, 70);
-            this.btnScanID.TabIndex = 41;
-            this.btnScanID.TabStop = false;
-            this.btnScanID.UseVisualStyleBackColor = true;
-            this.btnScanID.Click += new System.EventHandler(this.btnScanID_Click);
-            // 
-            // btnDashboard
-            // 
-            this.btnDashboard.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.btnDashboard.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnDashboard.FlatAppearance.BorderSize = 0;
-            this.btnDashboard.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnDashboard.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(96)))), ((int)(((byte)(153)))), ((int)(((byte)(102)))));
-            this.btnDashboard.Image = global::Student_ID_Scanning_System.Properties.Resources.dash_icon;
-            this.btnDashboard.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnDashboard.Location = new System.Drawing.Point(0, 185);
-            this.btnDashboard.Name = "btnDashboard";
-            this.btnDashboard.Size = new System.Drawing.Size(286, 70);
-            this.btnDashboard.TabIndex = 40;
-            this.btnDashboard.TabStop = false;
-            this.btnDashboard.UseVisualStyleBackColor = true;
-            this.btnDashboard.Click += new System.EventHandler(this.btnDashboard_Click);
-            // 
             // panel4
             // 
             this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(157)))), ((int)(((byte)(192)))), ((int)(((byte)(139)))));
@@ -272,25 +192,14 @@
             this.panel4.Size = new System.Drawing.Size(286, 3);
             this.panel4.TabIndex = 39;
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(26, 3);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(226, 81);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
-            // 
             // pHeader
             // 
+            this.pHeader.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.pHeader.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(96)))), ((int)(((byte)(153)))), ((int)(((byte)(102)))));
             this.pHeader.Controls.Add(this.panel3);
             this.pHeader.Controls.Add(this.pNotification);
             this.pHeader.Controls.Add(this.lblNumberID);
             this.pHeader.Controls.Add(this.lblName);
-            this.pHeader.Dock = System.Windows.Forms.DockStyle.Top;
             this.pHeader.Location = new System.Drawing.Point(286, 0);
             this.pHeader.Name = "pHeader";
             this.pHeader.Size = new System.Drawing.Size(1638, 69);
@@ -305,16 +214,6 @@
             this.panel3.Size = new System.Drawing.Size(28, 28);
             this.panel3.TabIndex = 6;
             // 
-            // pictureBox6
-            // 
-            this.pictureBox6.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox6.Image = global::Student_ID_Scanning_System.Properties.Resources.profile_icon;
-            this.pictureBox6.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(28, 28);
-            this.pictureBox6.TabIndex = 0;
-            this.pictureBox6.TabStop = false;
-            // 
             // pNotification
             // 
             this.pNotification.Anchor = System.Windows.Forms.AnchorStyles.None;
@@ -323,17 +222,6 @@
             this.pNotification.Name = "pNotification";
             this.pNotification.Size = new System.Drawing.Size(28, 28);
             this.pNotification.TabIndex = 5;
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.pictureBox2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox2.Image = global::Student_ID_Scanning_System.Properties.Resources.notification_icon;
-            this.pictureBox2.Location = new System.Drawing.Point(2, 2);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(24, 24);
-            this.pictureBox2.TabIndex = 0;
-            this.pictureBox2.TabStop = false;
             // 
             // lblNumberID
             // 
@@ -365,7 +253,7 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(96)))), ((int)(((byte)(153)))), ((int)(((byte)(102)))));
-            this.label1.Location = new System.Drawing.Point(462, 417);
+            this.label1.Location = new System.Drawing.Point(480, 417);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(159, 31);
             this.label1.TabIndex = 5;
@@ -401,7 +289,7 @@
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(96)))), ((int)(((byte)(153)))), ((int)(((byte)(102)))));
-            this.label4.Location = new System.Drawing.Point(505, 465);
+            this.label4.Location = new System.Drawing.Point(523, 465);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(67, 31);
             this.label4.TabIndex = 8;
@@ -443,6 +331,54 @@
             this.label7.TabIndex = 11;
             this.label7.Text = "QUICK ACTIONS";
             // 
+            // label17
+            // 
+            this.label17.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label17.AutoSize = true;
+            this.label17.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label17.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(81)))), ((int)(((byte)(59)))));
+            this.label17.Location = new System.Drawing.Point(1004, 680);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(193, 28);
+            this.label17.TabIndex = 41;
+            this.label17.Text = "Scan QR codes from ";
+            // 
+            // label15
+            // 
+            this.label15.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label15.AutoSize = true;
+            this.label15.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label15.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(81)))), ((int)(((byte)(59)))));
+            this.label15.Location = new System.Drawing.Point(989, 710);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(214, 28);
+            this.label15.TabIndex = 42;
+            this.label15.Text = "student IDs for fast and";
+            // 
+            // label14
+            // 
+            this.label14.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label14.AutoSize = true;
+            this.label14.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label14.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(81)))), ((int)(((byte)(59)))));
+            this.label14.Location = new System.Drawing.Point(1000, 740);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(197, 28);
+            this.label14.TabIndex = 43;
+            this.label14.Text = "secure verification of ";
+            // 
+            // label13
+            // 
+            this.label13.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label13.AutoSize = true;
+            this.label13.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label13.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(81)))), ((int)(((byte)(59)))));
+            this.label13.Location = new System.Drawing.Point(1019, 774);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(152, 28);
+            this.label13.TabIndex = 44;
+            this.label13.Text = "student profiles.";
+            // 
             // btnQRCode
             // 
             this.btnQRCode.Anchor = System.Windows.Forms.AnchorStyles.None;
@@ -464,110 +400,17 @@
             this.btnQRCode.UseVisualStyleBackColor = false;
             this.btnQRCode.Click += new System.EventHandler(this.btnQRCode_Click);
             // 
-            // label13
+            // label8
             // 
-            this.label13.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label13.AutoSize = true;
-            this.label13.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label13.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(81)))), ((int)(((byte)(59)))));
-            this.label13.Location = new System.Drawing.Point(1019, 774);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(152, 28);
-            this.label13.TabIndex = 44;
-            this.label13.Text = "student profiles.";
-            // 
-            // label14
-            // 
-            this.label14.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label14.AutoSize = true;
-            this.label14.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label14.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(81)))), ((int)(((byte)(59)))));
-            this.label14.Location = new System.Drawing.Point(1000, 740);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(197, 28);
-            this.label14.TabIndex = 43;
-            this.label14.Text = "secure verification of ";
-            // 
-            // label15
-            // 
-            this.label15.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label15.AutoSize = true;
-            this.label15.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label15.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(81)))), ((int)(((byte)(59)))));
-            this.label15.Location = new System.Drawing.Point(989, 710);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(214, 28);
-            this.label15.TabIndex = 42;
-            this.label15.Text = "student IDs for fast and";
-            // 
-            // label17
-            // 
-            this.label17.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label17.AutoSize = true;
-            this.label17.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label17.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(81)))), ((int)(((byte)(59)))));
-            this.label17.Location = new System.Drawing.Point(1004, 680);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(193, 28);
-            this.label17.TabIndex = 41;
-            this.label17.Text = "Scan QR codes from ";
-            // 
-            // btnBarcode
-            // 
-            this.btnBarcode.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.btnBarcode.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(96)))), ((int)(((byte)(153)))), ((int)(((byte)(102)))));
-            this.btnBarcode.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnBarcode.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(241)))), ((int)(((byte)(214)))));
-            this.btnBarcode.FlatAppearance.BorderSize = 0;
-            this.btnBarcode.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(96)))), ((int)(((byte)(153)))), ((int)(((byte)(102)))));
-            this.btnBarcode.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(96)))), ((int)(((byte)(153)))), ((int)(((byte)(102)))));
-            this.btnBarcode.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnBarcode.Font = new System.Drawing.Font("Segoe UI Semibold", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnBarcode.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(241)))), ((int)(((byte)(214)))));
-            this.btnBarcode.Location = new System.Drawing.Point(444, 855);
-            this.btnBarcode.Name = "btnBarcode";
-            this.btnBarcode.Size = new System.Drawing.Size(231, 57);
-            this.btnBarcode.TabIndex = 51;
-            this.btnBarcode.TabStop = false;
-            this.btnBarcode.Text = "BARCODE SCAN";
-            this.btnBarcode.UseVisualStyleBackColor = false;
-            this.btnBarcode.Click += new System.EventHandler(this.btnBarcode_Click);
-            // 
-            // label12
-            // 
-            this.label12.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label12.AutoSize = true;
-            this.label12.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(81)))), ((int)(((byte)(59)))));
-            this.label12.Location = new System.Drawing.Point(463, 799);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(190, 28);
-            this.label12.TabIndex = 50;
-            this.label12.Text = "student information.";
-            // 
-            // label11
-            // 
-            this.label11.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label11.AutoSize = true;
-            this.label11.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(81)))), ((int)(((byte)(59)))));
-            this.label11.Location = new System.Drawing.Point(456, 766);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(209, 28);
-            this.label11.TabIndex = 49;
-            this.label11.Text = "attendance or retrieve ";
-            // 
-            // label10
-            // 
-            this.label10.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(81)))), ((int)(((byte)(59)))));
-            this.label10.Location = new System.Drawing.Point(470, 732);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(189, 28);
-            this.label10.TabIndex = 48;
-            this.label10.Text = "ID to quickly record ";
+            this.label8.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(81)))), ((int)(((byte)(59)))));
+            this.label8.Location = new System.Drawing.Point(459, 672);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(214, 28);
+            this.label8.TabIndex = 46;
+            this.label8.Text = "Scan student barcodes ";
             // 
             // label9
             // 
@@ -581,17 +424,122 @@
             this.label9.TabIndex = 47;
             this.label9.Text = "printed on their school ";
             // 
-            // label8
+            // label10
             // 
-            this.label8.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(81)))), ((int)(((byte)(59)))));
-            this.label8.Location = new System.Drawing.Point(459, 672);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(214, 28);
-            this.label8.TabIndex = 46;
-            this.label8.Text = "Scan student barcodes ";
+            this.label10.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label10.AutoSize = true;
+            this.label10.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(81)))), ((int)(((byte)(59)))));
+            this.label10.Location = new System.Drawing.Point(470, 732);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(189, 28);
+            this.label10.TabIndex = 48;
+            this.label10.Text = "ID to quickly record ";
+            // 
+            // label11
+            // 
+            this.label11.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label11.AutoSize = true;
+            this.label11.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label11.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(81)))), ((int)(((byte)(59)))));
+            this.label11.Location = new System.Drawing.Point(456, 766);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(209, 28);
+            this.label11.TabIndex = 49;
+            this.label11.Text = "attendance or retrieve ";
+            // 
+            // label12
+            // 
+            this.label12.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label12.AutoSize = true;
+            this.label12.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label12.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(81)))), ((int)(((byte)(59)))));
+            this.label12.Location = new System.Drawing.Point(463, 799);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(190, 28);
+            this.label12.TabIndex = 50;
+            this.label12.Text = "student information.";
+            // 
+            // btnBarcode
+            // 
+            this.btnBarcode.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.btnBarcode.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(96)))), ((int)(((byte)(153)))), ((int)(((byte)(102)))));
+            this.btnBarcode.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnBarcode.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(241)))), ((int)(((byte)(214)))));
+            this.btnBarcode.FlatAppearance.BorderSize = 0;
+            this.btnBarcode.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(96)))), ((int)(((byte)(153)))), ((int)(((byte)(102)))));
+            this.btnBarcode.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(96)))), ((int)(((byte)(153)))), ((int)(((byte)(102)))));
+            this.btnBarcode.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnBarcode.Font = new System.Drawing.Font("Segoe UI Semibold", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnBarcode.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(241)))), ((int)(((byte)(214)))));
+            this.btnBarcode.Location = new System.Drawing.Point(442, 863);
+            this.btnBarcode.Name = "btnBarcode";
+            this.btnBarcode.Size = new System.Drawing.Size(231, 57);
+            this.btnBarcode.TabIndex = 51;
+            this.btnBarcode.TabStop = false;
+            this.btnBarcode.Text = "BARCODE SCAN";
+            this.btnBarcode.UseVisualStyleBackColor = false;
+            this.btnBarcode.Click += new System.EventHandler(this.btnBarcode_Click);
+            // 
+            // label22
+            // 
+            this.label22.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label22.AutoSize = true;
+            this.label22.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label22.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(81)))), ((int)(((byte)(59)))));
+            this.label22.Location = new System.Drawing.Point(1526, 680);
+            this.label22.Name = "label22";
+            this.label22.Size = new System.Drawing.Size(250, 28);
+            this.label22.TabIndex = 52;
+            this.label22.Text = "Read RFID-enabled student";
+            // 
+            // label21
+            // 
+            this.label21.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label21.AutoSize = true;
+            this.label21.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label21.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(81)))), ((int)(((byte)(59)))));
+            this.label21.Location = new System.Drawing.Point(1559, 708);
+            this.label21.Name = "label21";
+            this.label21.Size = new System.Drawing.Size(175, 28);
+            this.label21.TabIndex = 53;
+            this.label21.Text = "IDs for contactless ";
+            // 
+            // label20
+            // 
+            this.label20.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label20.AutoSize = true;
+            this.label20.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label20.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(81)))), ((int)(((byte)(59)))));
+            this.label20.Location = new System.Drawing.Point(1515, 740);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(261, 28);
+            this.label20.TabIndex = 54;
+            this.label20.Text = "scanning, ideal for fast entry ";
+            // 
+            // label19
+            // 
+            this.label19.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label19.AutoSize = true;
+            this.label19.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label19.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(81)))), ((int)(((byte)(59)))));
+            this.label19.Location = new System.Drawing.Point(1526, 774);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(240, 28);
+            this.label19.TabIndex = 55;
+            this.label19.Text = "and automatic attendance";
+            // 
+            // label18
+            // 
+            this.label18.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label18.AutoSize = true;
+            this.label18.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label18.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(81)))), ((int)(((byte)(59)))));
+            this.label18.Location = new System.Drawing.Point(1609, 807);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(87, 28);
+            this.label18.TabIndex = 56;
+            this.label18.Text = "tracking.";
             // 
             // btnRFID
             // 
@@ -614,73 +562,13 @@
             this.btnRFID.UseVisualStyleBackColor = false;
             this.btnRFID.Click += new System.EventHandler(this.btnRFID_Click);
             // 
-            // label18
-            // 
-            this.label18.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label18.AutoSize = true;
-            this.label18.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label18.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(81)))), ((int)(((byte)(59)))));
-            this.label18.Location = new System.Drawing.Point(1609, 807);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(87, 28);
-            this.label18.TabIndex = 56;
-            this.label18.Text = "tracking.";
-            // 
-            // label19
-            // 
-            this.label19.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label19.AutoSize = true;
-            this.label19.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label19.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(81)))), ((int)(((byte)(59)))));
-            this.label19.Location = new System.Drawing.Point(1526, 774);
-            this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(240, 28);
-            this.label19.TabIndex = 55;
-            this.label19.Text = "and automatic attendance";
-            // 
-            // label20
-            // 
-            this.label20.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label20.AutoSize = true;
-            this.label20.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label20.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(81)))), ((int)(((byte)(59)))));
-            this.label20.Location = new System.Drawing.Point(1515, 740);
-            this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(261, 28);
-            this.label20.TabIndex = 54;
-            this.label20.Text = "scanning, ideal for fast entry ";
-            // 
-            // label21
-            // 
-            this.label21.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label21.AutoSize = true;
-            this.label21.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label21.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(81)))), ((int)(((byte)(59)))));
-            this.label21.Location = new System.Drawing.Point(1559, 708);
-            this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(175, 28);
-            this.label21.TabIndex = 53;
-            this.label21.Text = "IDs for contactless ";
-            // 
-            // label22
-            // 
-            this.label22.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label22.AutoSize = true;
-            this.label22.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label22.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(81)))), ((int)(((byte)(59)))));
-            this.label22.Location = new System.Drawing.Point(1526, 680);
-            this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(250, 28);
-            this.label22.TabIndex = 52;
-            this.label22.Text = "Read RFID-enabled student";
-            // 
             // panel1
             // 
             this.panel1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(96)))), ((int)(((byte)(153)))), ((int)(((byte)(102)))));
-            this.panel1.Location = new System.Drawing.Point(446, 599);
+            this.panel1.Location = new System.Drawing.Point(337, 599);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(524, 1);
+            this.panel1.Size = new System.Drawing.Size(633, 1);
             this.panel1.TabIndex = 58;
             // 
             // panel2
@@ -689,7 +577,7 @@
             this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(96)))), ((int)(((byte)(153)))), ((int)(((byte)(102)))));
             this.panel2.Location = new System.Drawing.Point(1231, 600);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(549, 1);
+            this.panel2.Size = new System.Drawing.Size(633, 1);
             this.panel2.TabIndex = 59;
             // 
             // label16
@@ -730,12 +618,128 @@
             // 
             this.pictureBox5.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.pictureBox5.Image = global::Student_ID_Scanning_System.Properties.Resources.line_graph_image;
-            this.pictureBox5.Location = new System.Drawing.Point(461, 204);
+            this.pictureBox5.Location = new System.Drawing.Point(479, 204);
             this.pictureBox5.Name = "pictureBox5";
             this.pictureBox5.Size = new System.Drawing.Size(174, 161);
             this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox5.TabIndex = 40;
             this.pictureBox5.TabStop = false;
+            // 
+            // pictureBox6
+            // 
+            this.pictureBox6.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pictureBox6.Image = global::Student_ID_Scanning_System.Properties.Resources.profile_icon;
+            this.pictureBox6.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox6.Name = "pictureBox6";
+            this.pictureBox6.Size = new System.Drawing.Size(28, 28);
+            this.pictureBox6.TabIndex = 0;
+            this.pictureBox6.TabStop = false;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.pictureBox2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pictureBox2.Image = global::Student_ID_Scanning_System.Properties.Resources.notification_icon;
+            this.pictureBox2.Location = new System.Drawing.Point(2, 2);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(24, 24);
+            this.pictureBox2.TabIndex = 0;
+            this.pictureBox2.TabStop = false;
+            // 
+            // btnReports
+            // 
+            this.btnReports.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.btnReports.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnReports.FlatAppearance.BorderSize = 0;
+            this.btnReports.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnReports.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(96)))), ((int)(((byte)(153)))), ((int)(((byte)(102)))));
+            this.btnReports.Image = global::Student_ID_Scanning_System.Properties.Resources.scan_history_icon__1_;
+            this.btnReports.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnReports.Location = new System.Drawing.Point(0, 446);
+            this.btnReports.Name = "btnReports";
+            this.btnReports.Size = new System.Drawing.Size(286, 70);
+            this.btnReports.TabIndex = 49;
+            this.btnReports.TabStop = false;
+            this.btnReports.UseVisualStyleBackColor = true;
+            this.btnReports.Click += new System.EventHandler(this.btnReports_Click);
+            // 
+            // btnLogout
+            // 
+            this.btnLogout.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.btnLogout.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnLogout.FlatAppearance.BorderSize = 0;
+            this.btnLogout.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnLogout.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(96)))), ((int)(((byte)(153)))), ((int)(((byte)(102)))));
+            this.btnLogout.Image = ((System.Drawing.Image)(resources.GetObject("btnLogout.Image")));
+            this.btnLogout.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnLogout.Location = new System.Drawing.Point(0, 893);
+            this.btnLogout.Name = "btnLogout";
+            this.btnLogout.Size = new System.Drawing.Size(286, 70);
+            this.btnLogout.TabIndex = 46;
+            this.btnLogout.TabStop = false;
+            this.btnLogout.UseVisualStyleBackColor = true;
+            this.btnLogout.Click += new System.EventHandler(this.btnLogout_Click);
+            // 
+            // btnStudentRecord
+            // 
+            this.btnStudentRecord.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.btnStudentRecord.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnStudentRecord.FlatAppearance.BorderSize = 0;
+            this.btnStudentRecord.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnStudentRecord.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(96)))), ((int)(((byte)(153)))), ((int)(((byte)(102)))));
+            this.btnStudentRecord.Image = global::Student_ID_Scanning_System.Properties.Resources.student_record_icon;
+            this.btnStudentRecord.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnStudentRecord.Location = new System.Drawing.Point(0, 358);
+            this.btnStudentRecord.Name = "btnStudentRecord";
+            this.btnStudentRecord.Size = new System.Drawing.Size(286, 70);
+            this.btnStudentRecord.TabIndex = 43;
+            this.btnStudentRecord.TabStop = false;
+            this.btnStudentRecord.UseVisualStyleBackColor = true;
+            this.btnStudentRecord.Click += new System.EventHandler(this.btnStudentRecord_Click);
+            // 
+            // btnScanID
+            // 
+            this.btnScanID.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.btnScanID.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnScanID.FlatAppearance.BorderSize = 0;
+            this.btnScanID.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnScanID.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(96)))), ((int)(((byte)(153)))), ((int)(((byte)(102)))));
+            this.btnScanID.Image = ((System.Drawing.Image)(resources.GetObject("btnScanID.Image")));
+            this.btnScanID.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnScanID.Location = new System.Drawing.Point(0, 270);
+            this.btnScanID.Name = "btnScanID";
+            this.btnScanID.Size = new System.Drawing.Size(286, 70);
+            this.btnScanID.TabIndex = 41;
+            this.btnScanID.TabStop = false;
+            this.btnScanID.UseVisualStyleBackColor = true;
+            this.btnScanID.Click += new System.EventHandler(this.btnScanID_Click);
+            // 
+            // btnDashboard
+            // 
+            this.btnDashboard.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.btnDashboard.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnDashboard.FlatAppearance.BorderSize = 0;
+            this.btnDashboard.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnDashboard.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(96)))), ((int)(((byte)(153)))), ((int)(((byte)(102)))));
+            this.btnDashboard.Image = global::Student_ID_Scanning_System.Properties.Resources.dash_icon;
+            this.btnDashboard.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnDashboard.Location = new System.Drawing.Point(0, 185);
+            this.btnDashboard.Name = "btnDashboard";
+            this.btnDashboard.Size = new System.Drawing.Size(286, 70);
+            this.btnDashboard.TabIndex = 40;
+            this.btnDashboard.TabStop = false;
+            this.btnDashboard.UseVisualStyleBackColor = true;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(26, 3);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(226, 81);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
             // 
             // MainDashboard
             // 
@@ -785,16 +789,16 @@
             this.Load += new System.EventHandler(this.MainDashboard_Load);
             this.pSidebar.ResumeLayout(false);
             this.pSidebar.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.pHeader.ResumeLayout(false);
             this.pHeader.PerformLayout();
             this.panel3.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
             this.pNotification.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -816,9 +820,13 @@
         private System.Windows.Forms.Label lblStudentRecord;
         private System.Windows.Forms.Label lblLogout;
         private System.Windows.Forms.Button btnLogout;
-        private System.Windows.Forms.PictureBox pictureBox3;
-        private System.Windows.Forms.PictureBox pictureBox4;
         private System.Windows.Forms.Panel panel5;
+        private System.Windows.Forms.Panel pNotification;
+        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.Panel panel3;
+        private System.Windows.Forms.PictureBox pictureBox6;
+        private System.Windows.Forms.Label lblReports;
+        private System.Windows.Forms.Button btnReports;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
@@ -827,31 +835,27 @@
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.PictureBox pictureBox5;
-        private System.Windows.Forms.Button btnQRCode;
-        private System.Windows.Forms.Label label13;
-        private System.Windows.Forms.Label label14;
-        private System.Windows.Forms.Label label15;
+        private System.Windows.Forms.PictureBox pictureBox3;
+        private System.Windows.Forms.PictureBox pictureBox4;
         private System.Windows.Forms.Label label17;
-        private System.Windows.Forms.Button btnBarcode;
-        private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Label label15;
+        private System.Windows.Forms.Label label14;
+        private System.Windows.Forms.Label label13;
+        private System.Windows.Forms.Button btnQRCode;
         private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.Button btnRFID;
-        private System.Windows.Forms.Label label18;
-        private System.Windows.Forms.Label label19;
-        private System.Windows.Forms.Label label20;
-        private System.Windows.Forms.Label label21;
+        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.Button btnBarcode;
         private System.Windows.Forms.Label label22;
+        private System.Windows.Forms.Label label21;
+        private System.Windows.Forms.Label label20;
+        private System.Windows.Forms.Label label19;
+        private System.Windows.Forms.Label label18;
+        private System.Windows.Forms.Button btnRFID;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Label label16;
-        private System.Windows.Forms.Panel pNotification;
-        private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.Panel panel3;
-        private System.Windows.Forms.PictureBox pictureBox6;
-        private System.Windows.Forms.Label label23;
-        private System.Windows.Forms.Button button1;
     }
 }

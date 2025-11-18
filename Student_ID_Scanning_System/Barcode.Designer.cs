@@ -201,7 +201,7 @@
             // 
             // panel6
             // 
-            this.panel6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(157)))), ((int)(((byte)(192)))), ((int)(((byte)(139)))));
+            this.panel6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(241)))), ((int)(((byte)(214)))));
             this.panel6.Controls.Add(this.pictureBox2);
             this.panel6.Location = new System.Drawing.Point(463, 88);
             this.panel6.Name = "panel6";

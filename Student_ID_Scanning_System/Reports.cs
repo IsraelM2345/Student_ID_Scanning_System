@@ -10,13 +10,16 @@ using System.Windows.Forms;
 
 namespace Student_ID_Scanning_System
 {
-    public partial class Student_Record : Form
+    public partial class Reports : Form
     {
-        public static Student_Record Instance { get; private set; }
-        public Student_Record()
+        public Reports()
         {
             InitializeComponent();
-            Instance = this;
+        }
+
+        private void lblLogout_Click(object sender, EventArgs e)
+        {
+
         }
 
         private void btnDashboard_Click(object sender, EventArgs e)
@@ -33,10 +36,15 @@ namespace Student_ID_Scanning_System
             this.Hide();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void lblStudentRecord_Click(object sender, EventArgs e)
         {
-            Reports reports = new Reports();    
-            reports.Show();
+
+        }
+
+        private void btnStudentRecord_Click(object sender, EventArgs e)
+        {
+            Student_Record studentRecord = new Student_Record();
+            studentRecord.Show();
             this.Hide();
         }
 
@@ -62,6 +70,8 @@ namespace Student_ID_Scanning_System
                 if (Scan_Screen.Instance != null)
                     Scan_Screen.Instance.Close();
 
+                if(Student_Record.Instance != null)
+                    Student_Record.Instance.Close();
                 // Hide current form
                 this.Hide();
 

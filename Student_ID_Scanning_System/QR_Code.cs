@@ -15,6 +15,7 @@ namespace Student_ID_Scanning_System
         public QR_Code()
         {
             InitializeComponent();
+
         }
     }
 }

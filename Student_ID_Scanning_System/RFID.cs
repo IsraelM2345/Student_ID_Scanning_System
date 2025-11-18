@@ -10,11 +10,17 @@ using System.Windows.Forms;
 
 namespace Student_ID_Scanning_System
 {
+   
     public partial class RFID : Form
     {
         public RFID()
         {
             InitializeComponent();
+        }
+
+        private void txtIDManual_TextChanged(object sender, EventArgs e)
+        {
+            
         }
     }
 }

@@ -37,7 +37,7 @@
             this.panel11 = new System.Windows.Forms.Panel();
             this.panel12 = new System.Windows.Forms.Panel();
             this.panel10 = new System.Windows.Forms.Panel();
-            this.txtUsername = new System.Windows.Forms.TextBox();
+            this.txtIDManual = new System.Windows.Forms.TextBox();
             this.btnScan = new System.Windows.Forms.Button();
             this.btnCamera = new System.Windows.Forms.Button();
             this.label7 = new System.Windows.Forms.Label();
@@ -139,17 +139,18 @@
             this.panel10.Size = new System.Drawing.Size(482, 1);
             this.panel10.TabIndex = 84;
             // 
-            // txtUsername
+            // txtIDManual
             // 
-            this.txtUsername.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(241)))), ((int)(((byte)(214)))));
-            this.txtUsername.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtUsername.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtUsername.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(81)))), ((int)(((byte)(59)))));
-            this.txtUsername.Location = new System.Drawing.Point(474, 640);
-            this.txtUsername.Name = "txtUsername";
-            this.txtUsername.Size = new System.Drawing.Size(462, 31);
-            this.txtUsername.TabIndex = 83;
-            this.txtUsername.TabStop = false;
+            this.txtIDManual.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(241)))), ((int)(((byte)(214)))));
+            this.txtIDManual.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtIDManual.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtIDManual.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(81)))), ((int)(((byte)(59)))));
+            this.txtIDManual.Location = new System.Drawing.Point(474, 640);
+            this.txtIDManual.Name = "txtIDManual";
+            this.txtIDManual.Size = new System.Drawing.Size(462, 31);
+            this.txtIDManual.TabIndex = 83;
+            this.txtIDManual.TabStop = false;
+            this.txtIDManual.TextChanged += new System.EventHandler(this.txtIDManual_TextChanged);
             // 
             // btnScan
             // 
@@ -201,7 +202,7 @@
             // 
             // panel6
             // 
-            this.panel6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(157)))), ((int)(((byte)(192)))), ((int)(((byte)(139)))));
+            this.panel6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(241)))), ((int)(((byte)(214)))));
             this.panel6.Controls.Add(this.pictureBox2);
             this.panel6.Location = new System.Drawing.Point(460, 90);
             this.panel6.Name = "panel6";
@@ -232,7 +233,7 @@
             this.Controls.Add(this.panel9);
             this.Controls.Add(this.panel8);
             this.Controls.Add(this.panel10);
-            this.Controls.Add(this.txtUsername);
+            this.Controls.Add(this.txtIDManual);
             this.Controls.Add(this.btnScan);
             this.Controls.Add(this.btnCamera);
             this.Controls.Add(this.label7);
@@ -263,7 +264,7 @@
         private System.Windows.Forms.Panel panel11;
         private System.Windows.Forms.Panel panel12;
         private System.Windows.Forms.Panel panel10;
-        private System.Windows.Forms.TextBox txtUsername;
+        private System.Windows.Forms.TextBox txtIDManual;
         private System.Windows.Forms.Button btnScan;
         private System.Windows.Forms.Button btnCamera;
         private System.Windows.Forms.Label label7;

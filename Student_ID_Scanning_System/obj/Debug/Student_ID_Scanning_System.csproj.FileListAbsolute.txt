@@ -36,3 +36,4 @@ C:\Users\israel\Source\Repos\Student_ID_Scanning_System\Student_ID_Scanning_Syst
 C:\Users\israel\Source\Repos\Student_ID_Scanning_System\Student_ID_Scanning_System\obj\Debug\Student_ID_Scanning_System.QR_Code.resources
 C:\Users\israel\Source\Repos\Student_ID_Scanning_System\Student_ID_Scanning_System\obj\Debug\Student_ID_Scanning_System.RFID.resources
 C:\Users\israel\Source\Repos\Student_ID_Scanning_System\Student_ID_Scanning_System\obj\Debug\Student_ID_Scanning_System.Student_Record.resources
+C:\Users\israel\Source\Repos\Student_ID_Scanning_System\Student_ID_Scanning_System\obj\Debug\Student_ID_Scanning_System.Reports.resources

@@ -12,14 +12,15 @@ namespace Student_ID_Scanning_System
 {
     public partial class Scan_Screen : Form
     {
+        public static Scan_Screen Instance { get; private set; }
         public Scan_Screen()
         {
             InitializeComponent();
+            Instance = this;
         }
 
         private void Scan_Screen_Load(object sender, EventArgs e)
         {
-
         }
 
         private void txtUsername_TextChanged(object sender, EventArgs e)
@@ -47,7 +48,7 @@ namespace Student_ID_Scanning_System
         //    btnCamera.ForeColor = Color.FromArgb(237, 241, 214);
         //}
 
-        //private void btnCamera_MouseLeave(object sender, EventArgs e)
+        //private void btnCamera_MouseLeave(object sender, EventArgs e) 
         //{
         //    btnCamera.ForeColor = Color.FromArgb(96, 153, 102);
         //}
@@ -59,6 +60,16 @@ namespace Student_ID_Scanning_System
             pBody.Controls.Add(qr);
             qr.BringToFront();
             qr.Show();
+            btnQR.ForeColor = Color.FromArgb(96, 153, 102);
+            btnQR.BackColor = Color.FromArgb(237, 241, 214);
+            btnQR.FlatAppearance.BorderColor = Color.FromArgb(96, 153, 102);
+            btnQR.FlatAppearance.BorderSize = 2;
+            btnBarcode.ForeColor = Color.FromArgb(237, 241, 214);
+            btnBarcode.BackColor = Color.FromArgb(96, 153, 102);
+            btnBarcode.FlatAppearance.BorderSize = 0;
+            btnRFID.ForeColor = Color.FromArgb(237, 241, 214);
+            btnRFID.BackColor = Color.FromArgb(96, 153, 102);
+            btnRFID.FlatAppearance.BorderSize = 0;
         }
 
         private void btnBarcode_Click(object sender, EventArgs e)
@@ -68,6 +79,16 @@ namespace Student_ID_Scanning_System
             pBody.Controls.Add(barcode);
             barcode.BringToFront();
             barcode.Show();
+            btnBarcode.ForeColor = Color.FromArgb(96, 153, 102);
+            btnBarcode.BackColor = Color.FromArgb(237, 241, 214);
+            btnBarcode.FlatAppearance.BorderColor = Color.FromArgb(96, 153, 102);
+            btnBarcode.FlatAppearance.BorderSize = 2;
+            btnQR.ForeColor = Color.FromArgb(237, 241, 214);
+            btnQR.BackColor = Color.FromArgb(96, 153, 102);
+            btnQR.FlatAppearance.BorderSize = 0;
+            btnRFID.ForeColor = Color.FromArgb(237, 241, 214);
+            btnRFID.BackColor = Color.FromArgb(96, 153, 102);
+            btnRFID.FlatAppearance.BorderSize = 0;
         }
 
         private void btnRFID_Click(object sender, EventArgs e)
@@ -77,18 +98,112 @@ namespace Student_ID_Scanning_System
             pBody.Controls.Add(rfid);
             rfid.BringToFront();
             rfid.Show();
+            btnRFID.ForeColor = Color.FromArgb(96, 153, 102);
+            btnRFID.BackColor = Color.FromArgb(237, 241, 214);
+            btnRFID.FlatAppearance.BorderColor = Color.FromArgb(96, 153, 102);
+            btnRFID.FlatAppearance.BorderSize = 2;
+            btnQR.ForeColor = Color.FromArgb(237, 241, 214);
+            btnQR.BackColor = Color.FromArgb(96, 153, 102);
+            btnQR.FlatAppearance.BorderSize = 2;
+            btnBarcode.ForeColor = Color.FromArgb(237, 241, 214);
+            btnBarcode.BackColor = Color.FromArgb(96, 153, 102);
+            btnBarcode.FlatAppearance.BorderSize = 0;
         }
 
-        private void btnDashboard_Click(object sender, EventArgs e)
+        private void btnDashboard_Click_1(object sender, EventArgs e)
         {
-            MainDashboard dashboard = new MainDashboard();
-            dashboard.Show();
+            // Show Dashboard
+            if (MainDashboard.Instance != null)
+            {
+                MainDashboard.Instance.Show();
+                MainDashboard.Instance.BringToFront();
+            }
+
+            // Hide Scan_Screen
+            this.Hide();
         }
 
         private void lblDashboard_Click(object sender, EventArgs e)
         {
-            MainDashboard dashboard = new MainDashboard();
-            dashboard.Show();
+
+            // Show Dashboard
+            if (MainDashboard.Instance != null)
+            {
+                MainDashboard.Instance.Show();
+                MainDashboard.Instance.BringToFront();
+            }
+
+            // Hide Scan_Screen
+            this.Hide();
+        }
+
+        private void btnStudentRecord_Click(object sender, EventArgs e)
+        {
+            Student_Record studentRecord = new Student_Record();
+            studentRecord.Show();
+            this.Hide();
+        }
+
+        private void lblStudentRecord_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnReports_Click(object sender, EventArgs e)
+        {
+            Reports reports = new Reports();
+            reports.Show();
+            this.Hide();
+        }
+
+        private void lblReports_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnLogout_Click(object sender, EventArgs e)
+        {
+            ConfirmLogout();
+        }
+
+        private void ConfirmLogout()
+        {
+            DialogResult result = MessageBox.Show(
+                   "Are you sure you want to logout?",
+                   "Logout Confirmation",
+                   MessageBoxButtons.YesNo,
+                   MessageBoxIcon.Question
+               );
+
+            if (result == DialogResult.Yes)
+            {
+                // Close other forms manually
+                if (MainDashboard.Instance != null)
+                    MainDashboard.Instance.Close();
+
+                // Hide current form
+                this.Hide();
+
+                // Show login form
+                Login login = new Login();
+                login.Show();
+
+            }
+        }
+
+        private void lblLogout_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label16_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }
