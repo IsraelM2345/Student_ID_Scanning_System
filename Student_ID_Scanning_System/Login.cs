@@ -130,14 +130,20 @@ namespace Student_ID_Scanning_System
         private void txtUsername_Click(object sender, EventArgs e)
         {
             lblUsername.Location = new Point(1086, 282);
-            lblPassword.Location = new Point(1086, 414);
+            if(txtPassword.Text == "")
+            {
+                lblPassword.Location = new Point(1086, 414);
+            }
 
         }
 
         private void txtPassword_Click(object sender, EventArgs e)
         {
             lblPassword.Location = new Point(1086, 400);
-            lblUsername.Location = new Point(1086, 298);
+            if(txtUsername.Text == "")
+            {
+                lblUsername.Location = new Point(1086, 298);
+            }
         }
     }
 }

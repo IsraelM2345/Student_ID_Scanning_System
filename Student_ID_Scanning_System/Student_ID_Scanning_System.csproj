@@ -78,6 +78,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Barcode.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Barcode.Designer.cs">
+      <DependentUpon>Barcode.cs</DependentUpon>
+    </Compile>
     <Compile Include="Login.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -92,6 +98,38 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="QR_Code.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QR_Code.Designer.cs">
+      <DependentUpon>QR_Code.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RFID.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RFID.Designer.cs">
+      <DependentUpon>RFID.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Scan Screen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Scan Screen.Designer.cs">
+      <DependentUpon>Scan Screen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Student_Record.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Student_Record.Designer.cs">
+      <DependentUpon>Student_Record.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Barcode.resx">
+      <DependentUpon>Barcode.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
     </EmbeddedResource>
@@ -100,14 +138,21 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Resources.resx</DependentUpon>
-      <DesignTime>True</DesignTime>
-    </Compile>
+    <EmbeddedResource Include="QR_Code.resx">
+      <DependentUpon>QR_Code.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RFID.resx">
+      <DependentUpon>RFID.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Scan Screen.resx">
+      <DependentUpon>Scan Screen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Student_Record.resx">
+      <DependentUpon>Student_Record.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

@@ -73,9 +73,29 @@ namespace Student_ID_Scanning_System.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap bar_graph {
+        internal static System.Drawing.Bitmap background_image {
             get {
-                object obj = ResourceManager.GetObject("bar_graph", resourceCulture);
+                object obj = ResourceManager.GetObject("background_image", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap bar_graph_image {
+            get {
+                object obj = ResourceManager.GetObject("bar_graph_image", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Barcode {
+            get {
+                object obj = ResourceManager.GetObject("Barcode", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -133,9 +153,9 @@ namespace Student_ID_Scanning_System.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap line_graph {
+        internal static System.Drawing.Bitmap line_graph_image {
             get {
-                object obj = ResourceManager.GetObject("line_graph", resourceCulture);
+                object obj = ResourceManager.GetObject("line_graph_image", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -193,9 +213,9 @@ namespace Student_ID_Scanning_System.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap pie_chart {
+        internal static System.Drawing.Bitmap pie_chart_image {
             get {
-                object obj = ResourceManager.GetObject("pie_chart", resourceCulture);
+                object obj = ResourceManager.GetObject("pie_chart_image", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -216,6 +236,36 @@ namespace Student_ID_Scanning_System.Properties {
         internal static System.Drawing.Bitmap profile_icon {
             get {
                 object obj = ResourceManager.GetObject("profile_icon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap QR_Code {
+            get {
+                object obj = ResourceManager.GetObject("QR_Code", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap RFID {
+            get {
+                object obj = ResourceManager.GetObject("RFID", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap scan_history_icon__1_ {
+            get {
+                object obj = ResourceManager.GetObject("scan_history_icon (1)", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
