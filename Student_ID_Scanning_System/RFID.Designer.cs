@@ -30,7 +30,7 @@
         {
             this.label1 = new System.Windows.Forms.Label();
             this.button5 = new System.Windows.Forms.Button();
-            this.lblUsername = new System.Windows.Forms.Label();
+            this.lblIDManual = new System.Windows.Forms.Label();
             this.panel7 = new System.Windows.Forms.Panel();
             this.panel9 = new System.Windows.Forms.Panel();
             this.panel8 = new System.Windows.Forms.Panel();
@@ -40,7 +40,7 @@
             this.txtIDManual = new System.Windows.Forms.TextBox();
             this.btnScan = new System.Windows.Forms.Button();
             this.btnCamera = new System.Windows.Forms.Button();
-            this.label7 = new System.Windows.Forms.Label();
+            this.lblScannerPreview = new System.Windows.Forms.Label();
             this.panel6 = new System.Windows.Forms.Panel();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.panel8.SuspendLayout();
@@ -78,16 +78,16 @@
             this.button5.Text = "ADD";
             this.button5.UseVisualStyleBackColor = false;
             // 
-            // lblUsername
+            // lblIDManual
             // 
-            this.lblUsername.AutoSize = true;
-            this.lblUsername.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblUsername.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(96)))), ((int)(((byte)(153)))), ((int)(((byte)(102)))));
-            this.lblUsername.Location = new System.Drawing.Point(469, 640);
-            this.lblUsername.Name = "lblUsername";
-            this.lblUsername.Size = new System.Drawing.Size(152, 28);
-            this.lblUsername.TabIndex = 88;
-            this.lblUsername.Text = "Manual ID Input";
+            this.lblIDManual.AutoSize = true;
+            this.lblIDManual.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblIDManual.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(96)))), ((int)(((byte)(153)))), ((int)(((byte)(102)))));
+            this.lblIDManual.Location = new System.Drawing.Point(469, 640);
+            this.lblIDManual.Name = "lblIDManual";
+            this.lblIDManual.Size = new System.Drawing.Size(152, 28);
+            this.lblIDManual.TabIndex = 88;
+            this.lblIDManual.Text = "Manual ID Input";
             // 
             // panel7
             // 
@@ -189,16 +189,16 @@
             this.btnCamera.Text = "OPEN CAMERA";
             this.btnCamera.UseVisualStyleBackColor = false;
             // 
-            // label7
+            // lblScannerPreview
             // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(81)))), ((int)(((byte)(59)))));
-            this.label7.Location = new System.Drawing.Point(454, 47);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(188, 28);
-            this.label7.TabIndex = 81;
-            this.label7.Text = "SCANNER PREVIEW";
+            this.lblScannerPreview.AutoSize = true;
+            this.lblScannerPreview.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblScannerPreview.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(81)))), ((int)(((byte)(59)))));
+            this.lblScannerPreview.Location = new System.Drawing.Point(454, 47);
+            this.lblScannerPreview.Name = "lblScannerPreview";
+            this.lblScannerPreview.Size = new System.Drawing.Size(188, 28);
+            this.lblScannerPreview.TabIndex = 81;
+            this.lblScannerPreview.Text = "SCANNER PREVIEW";
             // 
             // panel6
             // 
@@ -228,7 +228,7 @@
             this.ClientSize = new System.Drawing.Size(1924, 1055);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button5);
-            this.Controls.Add(this.lblUsername);
+            this.Controls.Add(this.lblIDManual);
             this.Controls.Add(this.panel7);
             this.Controls.Add(this.panel9);
             this.Controls.Add(this.panel8);
@@ -236,7 +236,7 @@
             this.Controls.Add(this.txtIDManual);
             this.Controls.Add(this.btnScan);
             this.Controls.Add(this.btnCamera);
-            this.Controls.Add(this.label7);
+            this.Controls.Add(this.lblScannerPreview);
             this.Controls.Add(this.panel6);
             this.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -245,6 +245,7 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "RFID";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.Click += new System.EventHandler(this.RFID_Click);
             this.panel8.ResumeLayout(false);
             this.panel6.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
@@ -257,7 +258,7 @@
 
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Label lblUsername;
+        private System.Windows.Forms.Label lblIDManual;
         private System.Windows.Forms.Panel panel7;
         private System.Windows.Forms.Panel panel9;
         private System.Windows.Forms.Panel panel8;
@@ -267,7 +268,7 @@
         private System.Windows.Forms.TextBox txtIDManual;
         private System.Windows.Forms.Button btnScan;
         private System.Windows.Forms.Button btnCamera;
-        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label lblScannerPreview;
         private System.Windows.Forms.Panel panel6;
         private System.Windows.Forms.PictureBox pictureBox2;
     }

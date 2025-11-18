@@ -30,14 +30,14 @@
         {
             this.label1 = new System.Windows.Forms.Label();
             this.button5 = new System.Windows.Forms.Button();
-            this.lblUsername = new System.Windows.Forms.Label();
+            this.lblIDManual = new System.Windows.Forms.Label();
             this.panel7 = new System.Windows.Forms.Panel();
             this.panel9 = new System.Windows.Forms.Panel();
             this.panel8 = new System.Windows.Forms.Panel();
             this.panel11 = new System.Windows.Forms.Panel();
             this.panel12 = new System.Windows.Forms.Panel();
             this.panel10 = new System.Windows.Forms.Panel();
-            this.txtUsername = new System.Windows.Forms.TextBox();
+            this.txtIDManual = new System.Windows.Forms.TextBox();
             this.btnScan = new System.Windows.Forms.Button();
             this.btnCamera = new System.Windows.Forms.Button();
             this.label7 = new System.Windows.Forms.Label();
@@ -78,16 +78,16 @@
             this.button5.Text = "ADD";
             this.button5.UseVisualStyleBackColor = false;
             // 
-            // lblUsername
+            // lblIDManual
             // 
-            this.lblUsername.AutoSize = true;
-            this.lblUsername.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblUsername.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(96)))), ((int)(((byte)(153)))), ((int)(((byte)(102)))));
-            this.lblUsername.Location = new System.Drawing.Point(472, 638);
-            this.lblUsername.Name = "lblUsername";
-            this.lblUsername.Size = new System.Drawing.Size(152, 28);
-            this.lblUsername.TabIndex = 76;
-            this.lblUsername.Text = "Manual ID Input";
+            this.lblIDManual.AutoSize = true;
+            this.lblIDManual.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblIDManual.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(96)))), ((int)(((byte)(153)))), ((int)(((byte)(102)))));
+            this.lblIDManual.Location = new System.Drawing.Point(472, 638);
+            this.lblIDManual.Name = "lblIDManual";
+            this.lblIDManual.Size = new System.Drawing.Size(152, 28);
+            this.lblIDManual.TabIndex = 76;
+            this.lblIDManual.Text = "Manual ID Input";
             // 
             // panel7
             // 
@@ -139,17 +139,18 @@
             this.panel10.Size = new System.Drawing.Size(482, 1);
             this.panel10.TabIndex = 72;
             // 
-            // txtUsername
+            // txtIDManual
             // 
-            this.txtUsername.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(241)))), ((int)(((byte)(214)))));
-            this.txtUsername.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtUsername.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtUsername.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(81)))), ((int)(((byte)(59)))));
-            this.txtUsername.Location = new System.Drawing.Point(477, 638);
-            this.txtUsername.Name = "txtUsername";
-            this.txtUsername.Size = new System.Drawing.Size(462, 31);
-            this.txtUsername.TabIndex = 71;
-            this.txtUsername.TabStop = false;
+            this.txtIDManual.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(241)))), ((int)(((byte)(214)))));
+            this.txtIDManual.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtIDManual.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtIDManual.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(81)))), ((int)(((byte)(59)))));
+            this.txtIDManual.Location = new System.Drawing.Point(477, 638);
+            this.txtIDManual.Name = "txtIDManual";
+            this.txtIDManual.Size = new System.Drawing.Size(462, 31);
+            this.txtIDManual.TabIndex = 71;
+            this.txtIDManual.TabStop = false;
+            this.txtIDManual.Click += new System.EventHandler(this.txtIDManual_Click);
             // 
             // btnScan
             // 
@@ -227,12 +228,12 @@
             this.ClientSize = new System.Drawing.Size(1924, 1055);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button5);
-            this.Controls.Add(this.lblUsername);
+            this.Controls.Add(this.lblIDManual);
             this.Controls.Add(this.panel7);
             this.Controls.Add(this.panel9);
             this.Controls.Add(this.panel8);
             this.Controls.Add(this.panel10);
-            this.Controls.Add(this.txtUsername);
+            this.Controls.Add(this.txtIDManual);
             this.Controls.Add(this.btnScan);
             this.Controls.Add(this.btnCamera);
             this.Controls.Add(this.label7);
@@ -252,14 +253,14 @@
 
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Label lblUsername;
+        private System.Windows.Forms.Label lblIDManual;
         private System.Windows.Forms.Panel panel7;
         private System.Windows.Forms.Panel panel9;
         private System.Windows.Forms.Panel panel8;
         private System.Windows.Forms.Panel panel11;
         private System.Windows.Forms.Panel panel12;
         private System.Windows.Forms.Panel panel10;
-        private System.Windows.Forms.TextBox txtUsername;
+        private System.Windows.Forms.TextBox txtIDManual;
         private System.Windows.Forms.Button btnScan;
         private System.Windows.Forms.Button btnCamera;
         private System.Windows.Forms.Label label7;

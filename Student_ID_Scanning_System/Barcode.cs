@@ -16,5 +16,10 @@ namespace Student_ID_Scanning_System
         {
             InitializeComponent();
         }
+
+        private void txtIDManual_Click(object sender, EventArgs e)
+        {
+           lblIDManual.Dispose();
+        }
     }
 }

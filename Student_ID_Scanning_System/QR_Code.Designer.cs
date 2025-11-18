@@ -30,7 +30,7 @@
         {
             this.label1 = new System.Windows.Forms.Label();
             this.button5 = new System.Windows.Forms.Button();
-            this.lblManualID = new System.Windows.Forms.Label();
+            this.lblIDManual = new System.Windows.Forms.Label();
             this.panel7 = new System.Windows.Forms.Panel();
             this.panel9 = new System.Windows.Forms.Panel();
             this.panel8 = new System.Windows.Forms.Panel();
@@ -78,16 +78,16 @@
             this.button5.Text = "ADD";
             this.button5.UseVisualStyleBackColor = false;
             // 
-            // lblManualID
+            // lblIDManual
             // 
-            this.lblManualID.AutoSize = true;
-            this.lblManualID.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblManualID.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(96)))), ((int)(((byte)(153)))), ((int)(((byte)(102)))));
-            this.lblManualID.Location = new System.Drawing.Point(471, 640);
-            this.lblManualID.Name = "lblManualID";
-            this.lblManualID.Size = new System.Drawing.Size(152, 28);
-            this.lblManualID.TabIndex = 76;
-            this.lblManualID.Text = "Manual ID Input";
+            this.lblIDManual.AutoSize = true;
+            this.lblIDManual.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblIDManual.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(96)))), ((int)(((byte)(153)))), ((int)(((byte)(102)))));
+            this.lblIDManual.Location = new System.Drawing.Point(471, 640);
+            this.lblIDManual.Name = "lblIDManual";
+            this.lblIDManual.Size = new System.Drawing.Size(152, 28);
+            this.lblIDManual.TabIndex = 76;
+            this.lblIDManual.Text = "Manual ID Input";
             // 
             // panel7
             // 
@@ -150,6 +150,7 @@
             this.txtManualInput.Size = new System.Drawing.Size(462, 31);
             this.txtManualInput.TabIndex = 71;
             this.txtManualInput.TabStop = false;
+            this.txtManualInput.Click += new System.EventHandler(this.txtManualInput_Click);
             // 
             // btnScan
             // 
@@ -227,7 +228,7 @@
             this.ClientSize = new System.Drawing.Size(1684, 1055);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button5);
-            this.Controls.Add(this.lblManualID);
+            this.Controls.Add(this.lblIDManual);
             this.Controls.Add(this.panel7);
             this.Controls.Add(this.panel9);
             this.Controls.Add(this.panel8);
@@ -256,7 +257,7 @@
 
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Label lblManualID;
+        private System.Windows.Forms.Label lblIDManual;
         private System.Windows.Forms.Panel panel7;
         private System.Windows.Forms.Panel panel9;
         private System.Windows.Forms.Panel panel8;

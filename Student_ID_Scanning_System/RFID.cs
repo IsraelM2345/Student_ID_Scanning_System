@@ -22,5 +22,10 @@ namespace Student_ID_Scanning_System
         {
             
         }
+
+        private void RFID_Click(object sender, EventArgs e)
+        {
+            lblIDManual.Dispose();
+        }
     }
 }
