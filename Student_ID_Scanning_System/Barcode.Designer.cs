@@ -241,6 +241,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Barcode";
             this.Text = "Barcode";
+            this.Load += new System.EventHandler(this.Barcode_Load);
             this.panel8.ResumeLayout(false);
             this.panel6.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();

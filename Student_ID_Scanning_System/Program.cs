@@ -16,7 +16,7 @@ namespace Student_ID_Scanning_System
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new MainDashboard());
+            Application.Run(new Reports());
         }
     }
 }

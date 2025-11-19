@@ -21,5 +21,10 @@ namespace Student_ID_Scanning_System
         {
            lblIDManual.Dispose();
         }
+
+        private void Barcode_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

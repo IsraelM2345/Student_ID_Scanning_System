@@ -30,6 +30,7 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Login));
             this.panel1 = new System.Windows.Forms.Panel();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
             this.txtUsername = new System.Windows.Forms.TextBox();
@@ -52,19 +53,19 @@
             this.picGit = new System.Windows.Forms.PictureBox();
             this.picGoogle = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.btnHide = new System.Windows.Forms.Button();
             this.btnShow = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picFB)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picGit)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picGoogle)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
             // 
+            this.panel1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(96)))), ((int)(((byte)(153)))), ((int)(((byte)(102)))));
             this.panel1.Controls.Add(this.pictureBox1);
             this.panel1.Location = new System.Drawing.Point(1, 1);
@@ -72,8 +73,20 @@
             this.panel1.Size = new System.Drawing.Size(1202, 1058);
             this.panel1.TabIndex = 0;
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.pictureBox1.Image = global::Student_ID_Scanning_System.Properties.Resources.background_image;
+            this.pictureBox1.Location = new System.Drawing.Point(-5, -10);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(1208, 1065);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
+            // 
             // label1
             // 
+            this.label1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Segoe UI Semibold", 28.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(96)))), ((int)(((byte)(153)))), ((int)(((byte)(102)))));
@@ -85,6 +98,7 @@
             // 
             // panel2
             // 
+            this.panel2.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(96)))), ((int)(((byte)(153)))), ((int)(((byte)(102)))));
             this.panel2.Location = new System.Drawing.Point(1345, 447);
             this.panel2.Name = "panel2";
@@ -93,6 +107,7 @@
             // 
             // txtUsername
             // 
+            this.txtUsername.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txtUsername.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(241)))), ((int)(((byte)(214)))));
             this.txtUsername.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtUsername.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -106,6 +121,7 @@
             // 
             // txtPassword
             // 
+            this.txtPassword.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txtPassword.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(241)))), ((int)(((byte)(214)))));
             this.txtPassword.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtPassword.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -121,6 +137,7 @@
             // 
             // checkBox1
             // 
+            this.checkBox1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.checkBox1.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.checkBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(96)))), ((int)(((byte)(153)))), ((int)(((byte)(102)))));
             this.checkBox1.Location = new System.Drawing.Point(1345, 638);
@@ -133,6 +150,7 @@
             // 
             // panel5
             // 
+            this.panel5.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.panel5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(157)))), ((int)(((byte)(192)))), ((int)(((byte)(139)))));
             this.panel5.Location = new System.Drawing.Point(1666, 832);
             this.panel5.Name = "panel5";
@@ -142,6 +160,7 @@
             // 
             // panel4
             // 
+            this.panel4.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(157)))), ((int)(((byte)(192)))), ((int)(((byte)(139)))));
             this.panel4.Location = new System.Drawing.Point(1205, 832);
             this.panel4.Name = "panel4";
@@ -151,6 +170,7 @@
             // 
             // label2
             // 
+            this.label2.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(96)))), ((int)(((byte)(153)))), ((int)(((byte)(102)))));
@@ -163,6 +183,7 @@
             // 
             // btnLogin
             // 
+            this.btnLogin.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.btnLogin.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(96)))), ((int)(((byte)(153)))), ((int)(((byte)(102)))));
             this.btnLogin.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnLogin.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(241)))), ((int)(((byte)(214)))));
@@ -183,6 +204,7 @@
             // 
             // panel8
             // 
+            this.panel8.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.panel8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(96)))), ((int)(((byte)(153)))), ((int)(((byte)(102)))));
             this.panel8.Location = new System.Drawing.Point(1345, 368);
             this.panel8.Name = "panel8";
@@ -191,6 +213,7 @@
             // 
             // panel9
             // 
+            this.panel9.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.panel9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(96)))), ((int)(((byte)(153)))), ((int)(((byte)(102)))));
             this.panel9.Location = new System.Drawing.Point(1345, 368);
             this.panel9.Name = "panel9";
@@ -199,6 +222,7 @@
             // 
             // panel7
             // 
+            this.panel7.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.panel7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(96)))), ((int)(((byte)(153)))), ((int)(((byte)(102)))));
             this.panel7.Location = new System.Drawing.Point(1779, 368);
             this.panel7.Name = "panel7";
@@ -207,6 +231,7 @@
             // 
             // panel10
             // 
+            this.panel10.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.panel10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(96)))), ((int)(((byte)(153)))), ((int)(((byte)(102)))));
             this.panel10.Location = new System.Drawing.Point(1779, 513);
             this.panel10.Name = "panel10";
@@ -215,6 +240,7 @@
             // 
             // panel11
             // 
+            this.panel11.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.panel11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(96)))), ((int)(((byte)(153)))), ((int)(((byte)(102)))));
             this.panel11.Location = new System.Drawing.Point(1345, 513);
             this.panel11.Name = "panel11";
@@ -223,6 +249,7 @@
             // 
             // panel12
             // 
+            this.panel12.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.panel12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(96)))), ((int)(((byte)(153)))), ((int)(((byte)(102)))));
             this.panel12.Location = new System.Drawing.Point(1345, 513);
             this.panel12.Name = "panel12";
@@ -231,6 +258,7 @@
             // 
             // panel13
             // 
+            this.panel13.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.panel13.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(96)))), ((int)(((byte)(153)))), ((int)(((byte)(102)))));
             this.panel13.Location = new System.Drawing.Point(1345, 592);
             this.panel13.Name = "panel13";
@@ -239,6 +267,7 @@
             // 
             // lblUsername
             // 
+            this.lblUsername.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lblUsername.AutoSize = true;
             this.lblUsername.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblUsername.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(96)))), ((int)(((byte)(153)))), ((int)(((byte)(102)))));
@@ -250,6 +279,7 @@
             // 
             // lblPassword
             // 
+            this.lblPassword.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lblPassword.AutoSize = true;
             this.lblPassword.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblPassword.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(96)))), ((int)(((byte)(153)))), ((int)(((byte)(102)))));
@@ -261,6 +291,7 @@
             // 
             // picFB
             // 
+            this.picFB.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.picFB.Cursor = System.Windows.Forms.Cursors.Hand;
             this.picFB.Image = ((System.Drawing.Image)(resources.GetObject("picFB.Image")));
             this.picFB.Location = new System.Drawing.Point(1697, 884);
@@ -272,6 +303,7 @@
             // 
             // picGit
             // 
+            this.picGit.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.picGit.Cursor = System.Windows.Forms.Cursors.Hand;
             this.picGit.Image = ((System.Drawing.Image)(resources.GetObject("picGit.Image")));
             this.picGit.Location = new System.Drawing.Point(1533, 887);
@@ -283,6 +315,7 @@
             // 
             // picGoogle
             // 
+            this.picGoogle.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.picGoogle.Cursor = System.Windows.Forms.Cursors.Hand;
             this.picGoogle.Image = ((System.Drawing.Image)(resources.GetObject("picGoogle.Image")));
             this.picGoogle.Location = new System.Drawing.Point(1372, 884);
@@ -294,6 +327,7 @@
             // 
             // pictureBox2
             // 
+            this.pictureBox2.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.pictureBox2.Image = global::Student_ID_Scanning_System.Properties.Resources.logo_s;
             this.pictureBox2.Location = new System.Drawing.Point(1274, 24);
             this.pictureBox2.Name = "pictureBox2";
@@ -302,18 +336,9 @@
             this.pictureBox2.TabIndex = 1;
             this.pictureBox2.TabStop = false;
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::Student_ID_Scanning_System.Properties.Resources.background_image;
-            this.pictureBox1.Location = new System.Drawing.Point(-5, -10);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(1208, 1065);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
-            // 
             // btnHide
             // 
+            this.btnHide.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.btnHide.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(241)))), ((int)(((byte)(214)))));
             this.btnHide.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnHide.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(241)))), ((int)(((byte)(214)))));
@@ -333,6 +358,7 @@
             // 
             // btnShow
             // 
+            this.btnShow.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.btnShow.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(241)))), ((int)(((byte)(214)))));
             this.btnShow.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnShow.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(241)))), ((int)(((byte)(214)))));
@@ -390,11 +416,11 @@
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.Login_Load);
             this.panel1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picFB)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picGit)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picGoogle)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
