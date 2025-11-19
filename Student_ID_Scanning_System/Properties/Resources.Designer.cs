@@ -123,6 +123,16 @@ namespace Student_ID_Scanning_System.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap francis_profile {
+            get {
+                object obj = ResourceManager.GetObject("francis_profile", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap google1 {
             get {
                 object obj = ResourceManager.GetObject("google1", resourceCulture);
@@ -276,6 +286,16 @@ namespace Student_ID_Scanning_System.Properties {
         internal static System.Drawing.Bitmap scan_icon {
             get {
                 object obj = ResourceManager.GetObject("scan_icon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap search_icon {
+            get {
+                object obj = ResourceManager.GetObject("search_icon", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
